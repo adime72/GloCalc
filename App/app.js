@@ -8,13 +8,14 @@ gloCalc.config(function ($routeProvider) {
           //  controller: "HomeCtrl"
         })
        .when("/signUp", {
-       templateUrl: "app/signUp/signUp.html",
+       templateUrl: "App/signUp/signUp.html"
         //     controller: "RecipeGalleryCtrl"
-        // })
-        // .when("/recipes/:recipeIndex", {
-        //     templateUrl: "app/recipe/recipeDetails.html",
+       })
+        .when("/users", {
+        templateUrl: "App/users/users.html"
         //     controller: "RecipeDetailsCtrl"
-        // }).when("/new", {
+        })
+        //.when("/new", {
         //     templateUrl: "app/recipe/newRecipe.html",
         //     controller: "NewRecipeCtrl"            
         // })
