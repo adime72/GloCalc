@@ -1,4 +1,4 @@
-var Insulin = angular.module("GloCalc", ["ngRoute"]);
+var GloCalc = angular.module("GloCalc", ["ngRoute"]);
 
 Insulin.config(function ($routeProvider) {
     $routeProvider

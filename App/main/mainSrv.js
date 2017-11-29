@@ -1,7 +1,7 @@
-GloCalc.factory("Insulin", function() {
+GloCalc.factory("Dosege", function() {
     
     // Insulin Constructor
-    function Insulin(carbohydrate, insulin, year, km) {
+    function Dosege(carbohydrate, insulin) {
         this.carbohydrate = carbohydrate;
         this.insulin = insulin;
 
@@ -13,5 +13,19 @@ GloCalc.factory("Insulin", function() {
         };*/
     }
     
-    return Insulin;
+    return Dosege;
   });
+
+var dosegeUser = new Dosege(10,20);
+
+
+//   function setInsulin(carsPlain) {
+//     u = [];
+//     for (var i = 0; i < carsPlain.length; i++) {
+//         cars.push(new Car(carsPlain[i].brand, carsPlain[i].model, 
+//             carsPlain[i].year, carsPlain[i].km))
+//     }
+// }
+// function dosege (params) {
+//     users=[];
+//   users.push
