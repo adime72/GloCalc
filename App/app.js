@@ -10,6 +10,10 @@ recipeApp.config(function ($routeProvider) {
             templateUrl: "App/signUp/signUp.html" 
             //controller: "RecipeGalleryCtrl"
         })
+        .when("/main", {
+            templateUrl: "App/main/main.html" 
+            //controller: "RecipeGalleryCtrl"
+        })
         .when("/users", {
             templateUrl: "App/users/users.html"
             //controller: "RecipeDetailsCtrl"
