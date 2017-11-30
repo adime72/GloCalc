@@ -11,8 +11,8 @@ Insulin.config(function ($routeProvider) {
             //controller: "RecipeGalleryCtrl"
         })
         .when("/main", {
-            templateUrl: "App/main/main.html" 
-            //controller: "RecipeGalleryCtrl"
+            templateUrl: "App/main/main.html" ,
+            controller: "MainCtrl"
         })
         .when("/users", {
             templateUrl: "App/users/users.html"

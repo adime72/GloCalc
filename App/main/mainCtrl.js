@@ -1,6 +1,3 @@
-
-GloCalc.controller("MainCtrl", function($scope, Dosege) {
-$scope.test = "ewewew";
+GloCalc.controller("MainCtrl", function ($scope, Dosege) {
+    $scope.test = "ewewew";
 });
-
-
